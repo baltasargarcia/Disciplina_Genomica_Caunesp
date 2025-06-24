@@ -1,26 +1,65 @@
-# Disciplina_Genomica_Caunesp
-Este repositório contém os materiais didáticos da disciplina "Tópicos Especiais: Genômica Aplicada à Conservação e Melhoramento Genético de Peixes", voltada a estudantes e profissionais interessados em integrar ferramentas genômicas a programas de melhoramento genético de organismos aquáticos.
+# 🧬 Tópicos Especiais: Seleção Genômica na Aquicultura
 
-Gostaríamos de compartilhar algumas informações sobre a parte prática do nosso curso. Para agilizar as aulas, pedimos que vocês baixem e instalem os seguintes softwares:
+Este repositório reúne os **materiais didáticos da disciplina _"Tópicos Especiais: Genômica Aplicada à Conservação e Melhoramento Genético de Peixes"_**, voltada a estudantes e profissionais interessados em integrar ferramentas genômicas a programas de melhoramento genético de organismos aquáticos.
 
-1) R base e Rstudio:
-Para os alunos que não tiverem o R (base) instalado, podem fazer o download nesse link: https://brieger.esalq.usp.br/CRAN/ (Escolha o sistema operacional que você usa)
+---
 
-Em seguida, baixar e instalar o RStudio neste link: https://rstudio.com/products/rstudio/download/#download (Escolha o sistema operacional que você usa)
-O R Studio é uma interface mais amigável e possui mais recursos que o R base. Entretanto, para que o Rstudio funcione o R base também precisa estar instalado.
+## 💻 Softwares Necessários
 
-2) PLINK: 
-Baixar o PLINK neste site: https://www.cog-genomics.org/plink/
-Escolha o sistema operacional para a versão estável mais recente: "Stable (beta 7.8, 15 Jun)”.
-O PLINK é baixado em uma pasta .zip. É necessário abrir a pasta e extrair o executável “plink.exe”. Não há necessidade de instalação.
+Para otimizar as atividades práticas do curso, solicitamos que todos os participantes instalem previamente os seguintes softwares:
 
-3) Pacotes BLUPF90: 
-Vocês podem baixar os módulos BLUPF90 em: https://nce.ads.uga.edu/html/projects/programs/
-Escolha o sistema operacional que você usa. Os pacotes devem ser baixados na pasta "Temp". Os seguintes pacotes devem ser baixados: renumf90, airemlf90, blupf90 e preGSf90. Não é necessário instalá-los.
+### 1. R (base) e RStudio
+- **R base**: [Download](https://brieger.esalq.usp.br/CRAN/)  
+  (Escolha o sistema operacional correspondente)
+- **RStudio**: [Download](https://posit.co/download/rstudio-desktop/)  
+  (Interface mais amigável e funcional)
 
-4) Textpad (somente para Windows) (opcional):
-Link: https://www.textpad.com/download
-Este software é opcional. Os softwares padrão do sistemas operacionais são geralmente ineficientes para abrir arquivos grandes (principalmente Windows), por isso o Textpad é muito mais funcional.
+> ⚠️ O RStudio depende do R base. Instale o R base antes do RStudio.
 
-Se tiverem alguma dúvida ou problema no download de algum software, estamos a disposição. Em breve enviaremos para vocês o material que usaremos no curso.
-Saudações e até semana que vem!
+---
+
+### 2. PLINK
+- Site oficial: [https://www.cog-genomics.org/plink/](https://www.cog-genomics.org/plink/)
+- Baixe a versão estável mais recente ("Stable") de acordo com seu sistema operacional.
+- Após o download (`.zip`), extraia o arquivo `plink.exe`.  
+  **Não é necessário instalar** — basta mantê-lo em uma pasta acessível.
+
+---
+
+### 3. Pacotes BLUPF90
+- Disponíveis em: [https://nce.ads.uga.edu/html/projects/programs/](https://nce.ads.uga.edu/html/projects/programs/)
+- Baixe os arquivos diretamente na pasta **"Temp"**.
+- Módulos necessários:
+  - `renumf90`
+  - `airemlf90`
+  - `blupf90`
+  - `preGSf90`
+
+> 📁 Os arquivos são executáveis e não requerem instalação.
+
+---
+
+### 4. Biblioteca `libiomp5md.dll`
+- Essencial para o funcionamento dos programas BLUPF90.
+- Copie esta biblioteca para **todas as pastas** onde serão executados os pacotes BLUPF90.
+
+
+---
+
+### 5. TextPad *(opcional – somente para Windows)*
+- [Download aqui](https://www.textpad.com/download)
+- Recomendado para abrir arquivos de texto grandes, que podem ser lentos com o Bloco de Notas padrão do Windows.
+
+---
+
+## 📂 Material das Aulas Práticas
+
+Os dados utilizados nas atividades estão organizados em **pastas por dia de aula**.  
+Ao fazer o download do material, **mantenha a estrutura original das pastas**, pois ela é essencial para a execução correta dos scripts e análises.
+
+---
+
+## Dùvidas
+
+baltasar.garcia@unesp.br
+mastrochirico.filho@unesp.br
