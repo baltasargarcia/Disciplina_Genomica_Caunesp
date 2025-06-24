@@ -59,7 +59,7 @@ Ao fazer o download do material, **mantenha a estrutura original das pastas**, p
 
 ---
 
-## Dùvidas
+## Dúvidas
 
 baltasar.garcia@unesp.br
 mastrochirico.filho@unesp.br
