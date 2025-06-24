@@ -42,7 +42,7 @@ Para otimizar as atividades práticas do curso, solicitamos que todos os partici
 ### 4. Biblioteca `libiomp5md.dll`
 - Essencial para o funcionamento dos programas BLUPF90.
 - Copie esta biblioteca para **todas as pastas** onde serão executados os pacotes BLUPF90.
--[Download aqui](https://pt.dll-files.com/download/3a7902626cddec83a3da541a96118b46/libiomp5md.dll.html?c=ZFZVcSs5RE9jOTAwMjdpeGlWS3dkUT09)
+- [Download aqui](https://pt.dll-files.com/download/3a7902626cddec83a3da541a96118b46/libiomp5md.dll.html?c=ZFZVcSs5RE9jOTAwMjdpeGlWS3dkUT09)
 
 ---
 
