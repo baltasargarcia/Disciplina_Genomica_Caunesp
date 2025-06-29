@@ -30,7 +30,7 @@ a
 b = 5
 b
 
-# Vetores
+# criação de vetores
 x <- c(1, 2, 3, 4, 5, 6) 
 x
 x2 <- 1:6
