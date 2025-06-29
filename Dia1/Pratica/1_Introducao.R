@@ -24,7 +24,7 @@ library(ggplot2)
 
 ##### Tipos de objetos em R #####
 
-# Númericos
+# atribuir um valor númerico a um objeto
 a <- 3
 a
 b = 5
