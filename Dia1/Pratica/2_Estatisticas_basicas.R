@@ -75,6 +75,7 @@ ggplot(data) +
   stat_cor(method = "pearson", label.x = 3, label.y = 8)
 
 #Plot de correlacion con v?rias variables
+#Tag_weight, tag_length, mortal_DDM
 data2<-data[,c(10,11,14)]
 ggpairs(data2)
 
