@@ -1,0 +1,26 @@
+PLINK v1.90b6.18 64-bit (16 Jun 2020)
+Options in effect:
+  --bfile IPN
+  --chr-set 29
+  --make-bed
+  --out IPN2
+  --update-ids Rename.txt
+
+Hostname: DESKTOP-T8Q6JKH
+Working directory: C:\Baltasar\Post_Doc\ARCAL\Practicas\Dia4\Parte1
+Start time: Tue Oct 25 17:41:24 2022
+
+Random number seed: 1666730484
+8056 MB RAM detected; reserving 4028 MB for main workspace.
+33544 variants loaded from .bim file.
+749 samples (749 males, 0 females) loaded from .fam.
+--update-ids: 749 samples updated.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 749 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.996667.
+33544 variants and 749 samples pass filters and QC.
+Note: No phenotypes present.
+--make-bed to IPN2.bed + IPN2.bim + IPN2.fam ... done.
+
+End time: Tue Oct 25 17:41:24 2022
