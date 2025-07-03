@@ -44,6 +44,18 @@ library(stringr)
 if (!require("SNPRelate")) install.packages("BiocManager"); BiocManager::install("SNPRelate")
 library(SNPRelate)
 
+install.packages("RColorBrewer")
+library(RColorBrewer)
+
+install.packages("tidyverse")
+library(tidyverse)
+
+install.packages("AGHmatrix")
+library(AGHmatrix)
+
+install.packages("pheatmap")
+library(pheatmap)
+
 > ⚠️ O RStudio depende do R base. Instale o R base antes do RStudio.
 
 
