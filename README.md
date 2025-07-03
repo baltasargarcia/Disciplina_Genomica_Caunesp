@@ -41,6 +41,8 @@ library(data.table)
 install.packages("stringr")
 library(stringr)
 
+if (!require("SNPRelate")) install.packages("BiocManager"); BiocManager::install("SNPRelate")
+library(SNPRelate)
 
 > ⚠️ O RStudio depende do R base. Instale o R base antes do RStudio.
 
