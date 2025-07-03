@@ -14,7 +14,36 @@ Para otimizar as atividades práticas do curso, solicitamos que todos os partici
 - **RStudio**: [Download](https://posit.co/download/rstudio-desktop/)  
   (Interface mais amigável e funcional)
 
+## Pacotes a serem utilizados dentro do ambiente R (solicitamos que a instalação seja realizada no RStudio previamente à Aula 2)
+install.packages("ggplot2")
+library(ggplot2)
+
+install.packages('reshape2')
+library(reshape2)
+
+install.packages("devtools")
+library(devtools)
+install_github("jgx65/hierfstat")
+library("hierfstat")
+
+options(
+  repos = c(
+    zkamvar = "https://zkamvar.r-universe.dev",
+    CRAN = "https://cloud.r-project.org"
+  )
+)
+install.packages("adegenet")
+library(adegenet)
+
+install.packages("data.table")
+library(data.table)
+
+install.packages("stringr")
+library(stringr)
+
+
 > ⚠️ O RStudio depende do R base. Instale o R base antes do RStudio.
+
 
 ---
 
