@@ -1,1 +1,26 @@
+Tarefa: Análise Genética e Planejamento de Cruzamentos em Programa de Melhoramento de Tambaqui
+
+Contexto
+Você é responsável pelo gerenciamento genético de um programa de melhoramento de tambaqui. O objetivo é manter a diversidade genética e minimizar a endogamia, enquanto se avança na seleção para características de interesse econômico.
+Foram genotipados 600 indivíduos de 9 populações (famílias) com marcadores SNPs. Com base nas análises realizadas na prática (PLINK, R, etc.), você deverá interpretar os dados e tomar decisões sobre o manejo genético dos estoques.
+________________________________________
+Instruções
+Utilize os resultados gerados durante a aula para responder às perguntas a seguir. Organize sua resposta como um relatório técnico, podendo incluir gráficos, tabelas e justificativas.
+________________________________________
+Tópicos obrigatórios:
+1.	Resumo genético das populações:
+o	Quantos loci polimórficos foram encontrados em cada população?
+o	Como se comparam as heterozigosidades esperada (He) e observada (Ho)? 
+2.	Diversidade genética e conservação:
+o	Qual(is) população(ões) apresentam maior diversidade genética?
+o	Há alguma população que você recomendaria não utilizar como reprodutora? Justifique.
+3.	Estrutura populacional:
+o	Com base nos valores de Fst e nos gráficos de PCA ou DAPC:
+	As populações estão bem diferenciadas?
+	Você identifica agrupamentos genéticos? Há alguma evidência de mistura?
+4.	Parentesco entre indivíduos:
+o	Como você usaria essa informação para evitar cruzamentos consanguíneos?
+5.	Proposta de cruzamentos:
+o	Qual a importância de se realizar esse tipo de análise antes de montar um plano de cruzamentos?
+o	Quais erros podem ser evitados?
 
