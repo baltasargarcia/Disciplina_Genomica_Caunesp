@@ -1,0 +1,27 @@
+DATAFILE
+Feno_geno.txt
+TRAITS
+5
+FIELDS_PASSED TO OUTPUT
+
+WEIGHT(S)
+
+RESIDUAL_VARIANCE# partir con 1
+31.154
+EFFECT #idade
+2 cross alpha
+EFFECT #peso
+3 cov
+EFFECT
+1 cross alpha
+RANDOM
+animal
+SNP_FILE         ## SNP marker file
+Genotipos_final.txt
+(CO)VARIANCES
+31.983
+OPTION no_quality_control
+OPTION se_covar_function H2d G_3_3_1_1/(G_3_3_1_1+R_1_1)
+OPTION missing -999
+OPTION sol se
+
