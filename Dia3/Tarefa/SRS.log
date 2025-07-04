@@ -1,0 +1,28 @@
+PLINK v1.90b6.18 64-bit (16 Jun 2020)
+Options in effect:
+  --chr-set 29
+  --file SRS
+  --make-bed
+  --out SRS
+
+Hostname: DESKTOP-T8Q6JKH
+Working directory: C:\Baltasar\Post_Doc\ARCAL\Practicas\Dia2\Parte2_results
+Start time: Fri Oct 21 17:59:19 2022
+
+Random number seed: 1666385959
+8056 MB RAM detected; reserving 4028 MB for main workspace.
+Scanning .ped file... done.
+Performing single-pass .bed write (42790 variants, 2130 samples).
+--file: SRS-temporary.bed + SRS-temporary.bim + SRS-temporary.fam written.
+42790 variants loaded from .bim file.
+2130 samples (0 males, 0 females, 2130 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to SRS.nosex .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 2130 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.924476.
+42790 variants and 2130 samples pass filters and QC.
+Note: No phenotypes present.
+--make-bed to SRS.bed + SRS.bim + SRS.fam ... done.
+
+End time: Fri Oct 21 17:59:25 2022
