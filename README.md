@@ -76,7 +76,7 @@ library(pheatmap)
   - `renumf90`
   - `airemlf90`
   - `blupf90`
-  - `preGSf90`
+  - `preGSf90` (Pasta 64bit)
 
 > 📁 Os arquivos são executáveis e não requerem instalação.
 
