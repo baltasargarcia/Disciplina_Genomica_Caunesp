@@ -1,0 +1,31 @@
+DATAFILE
+Data_correlation.txt
+TRAITS
+5 7
+FIELDS_PASSED TO OUTPUT
+
+WEIGHT(S)
+
+RESIDUAL_VARIANCE# partir con 1
+1 0
+0 1
+EFFECT #idade
+2 2 cov
+EFFECT #peso
+3 3 cov
+EFFECT
+1 1 cross alpha
+RANDOM
+animal
+FILE
+Pedigree_final.txt
+PED_DEPTH
+0
+(CO)VARIANCES
+0.5 0.25
+0.25 0.5
+OPTION missing -999
+OPTION sol se
+OPTION se_covar_function H2p G_3_3_1_1/(G_3_3_1_1+R_1_1) #Estimar heredabilidade DDM_SRS
+OPTION se_covar_function H2t G_3_3_2_2/(G_3_3_2_2+R_2_2) #Estimar heredabilidade DDM_IPN
+OPTION se_covar_function rgpt G_3_3_1_2/(G_3_3_1_1*G_3_3_2_2)**0.5 #Estimar correlacion genetica DDM_SRS e DDM_IPN
